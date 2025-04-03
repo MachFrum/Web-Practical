@@ -1,0 +1,88 @@
+        /* Base reset for consistent styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Grid container styles */
+        .gallery {
+            /* Fallback for older browsers */
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1rem;
+            
+            /* Modern grid layout */
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-auto-rows: minmax(200px, auto);
+            grid-gap: 1rem;
+            
+            /* Smooth image scaling */
+            align-items: stretch;
+            justify-items: center;
+        }
+
+        /* Modern grid layout for browsers that support grid */
+        @supports (grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))) {
+            .gallery {
+                display: grid;
+            }
+        }
+
+        /* Image card styling */
+        .gallery-item {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover effect for better interactivity */
+        .gallery-item:hover {
+            transform: translateY(-4px);
+        }
+
+        /* Image styling maintains aspect ratio */
+        .gallery-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            background: #181818; /* Fallback color while loading */
+        }
+
+        /* Video element styling */
+        .gallery-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Maintain aspect ratio like images */
+            background: #000; /* For letterboxing */
+            border-radius: 8px; /* Match image styling */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Consistent with images */
+        }
+
+        /* Optional: Custom controls styling */
+        .gallery-video::-webkit-media-controls-panel {
+            background: rgba(0,0,0,0.5);
+        }
+
+        /* Responsive breakpoints */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+                grid-auto-rows: minmax(150px, auto);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+                grid-auto-rows: minmax(200px, auto);
+            }
+        }
+print("jambo Tanzania")
