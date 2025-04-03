@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+
+            <title>HTML Lists, Images, Tables & Forms</title>
+
+            <meta>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <meta name="author" content="Macharia">
+                <meta name="description" content="HTML Lists, Images, Tables & Forms">
+                <meta name="keywords" content="HTML, Lists, Images, Tables, Forms">
+            </meta>
+
+        </head>
+
+        <body>
+
+            <h1>HTML Lists, Images, Tables and forms On week 2, Web Dev class. </h1>
+
+                <dl>
+                    <dt>How to use lists in HTML</dt>
+                        <dd>1. For ordered lists we use ol</dd>
+                        <dd>2. For unordered lists we use ul</dd>
+                        <dd>3. For definition lists we use dl</dd>
+                </dl>
+
+            <h2>Ordered Lists</h2>
+
+                <dl>
+                    <dt>How to use ordered lists in HTML</dt>    
+                        <dd>1. We use the ol tag to define we are starting and ordered list</dd>
+                        <dd>2. We use the type="" attribute to specify the type of list we want</dd>
+                        <dd>3. We use the start="" attribute to specify the starting number of the list</dd>
+                        <dd>4. We use li element to arrange out item is the list. </dd>
+                        <h3>Example of ordered list: </h3>
+                </dl>
+                
+                <ol type="a" start="6">
+                    <li>Software Engineering</li>
+                    <li>Web Development</li>
+                    <li>Python</li>
+                    <li>Database</li>
+                    <li>Startup Building</li>
+                </ol>
+
+            <h2>Un-ordered Lists</h2>
+
+                <dl>
+                    <dt>How to use unordered lists in HTML</dt>
+                        <dd>1. We use the ul tag to start an Un-ordered list</dd>
+                        <dd>2. We use the type attribute to specify the bullet style</dd>
+                        <dd>3. We use the li element to define each list item</dd>
+                        <h3>Example of an Un-ordered list: </h3>
+                </dl>
+
+                <ul type="circle">
+                    <li>Mr. Chakin</li>
+                    <li>Miss. Susan</li>
+                    <li>Mr. Eddy</li>
+                    <li>Mr. Gerald</li>
+                    <li>Miss. Nelly</li>
+                </ul>
+
+            <h2>Definition Lists</h2>
+
+                <dl>
+                    <dt>In HTML, a definition list is a way to display terms and their descriptions. 
+                    It's like making a list where each item is a pair: one is the "term," and the other is its "explanation."</dt>
+                    
+                    <dt>1. How do we define lists?</dt>
+                        <dd>a. dl Stands for "definition list" and acts as a container for the whole list.</dd>
+                        <dd>b. dt Stands for "definition term" and defines the term.</dd>
+                        <dd>c. dd Stands for "definition description" and provides the explanation. </dd>
+
+                    <dt>2. So all this code is in the definition list which is enclosed in dl. This line is enclosed in a dt </dt>
+                        <dd>This one is enclosed in a dd. </dd>
+                        <dd>And it's as simple as that.</dd>
+
+                    <dt>3. I missed this but turns out, h1,h2,h3 represent the font size of a header. </dt>      
+                </dl>
+
+            <h2>HTML Images </h2>
+
+                <dl>
+                    <dt>How to use images in HTML</dt>
+                        <dd>1. We use the img tag to define an image</dd>
+                        <dd>2. We use the src attribute to specify the path to the image</dd>
+                        <dd>3. We use the alt attribute to provide an alternate text for the image</dd>
+                        <dd>4. We use the width and height attributes to specify the size of the image</dd>
+                        <dd>5. We use the title attribute to provide a title for the image</dd>
+                        <h3>Example of an image: </h3>
+                </dl>
+
+                <img src="Food.jpg" alt="Imgage of a bowl Food" width="500" height="300" >
+                <img src="Vacation.jpg" alt="Imgage of a beach" width="500" height="300" title="Vaction">
+                
+            <h2>HTML Tables</h2>
+
+                <dl>
+                    <dt> 1. Tables have a head, body, foot, rows, and caption. </dt>
+                        <dd> 1. Table: The container element that defines the table.</dd>
+                        <dd> 2. Table Row: Represents a single row within the table. You need at least one <tr> for a table.</dd>
+                        <dd> 3. Table Header: Defines a header cell within a row. These cells are bold and centered by default, typically used for headings.</dd>
+                        <dd> 4. Table Data: Represents standard data cells within a table. These are the "regular" cells in each row.</dd>
+                        <dd> 5. Caption: Provides a title or description for the table.</dd>
+                        <dd> 6. Thead: Groups the header rows of a table. Typically contains <tr> and <th> elements.</dd>
+                        <dd> 7. Tbody: Groups the main body rows of a table. Contains <tr> and <td> elements.</dd>
+                        <dd> 8. Tfoot: Groups the footer rows of a table, often used for summary information or totals. </dd>
+                    <dt> 2. How to use the mentioned componets of tables.</dt>
+                        <dd>1. All code of a table is in an angled brackets with the word table inside. </dd>
+                        <dd>2. For the head we use thead</dd>
+                        <dd>3. For the body we use tbody</dd>
+                        <dd>4. For the foot we use tfoot</dd>
+                        <dd>5. For the rows we use tr</dd>
+                        <dd>6. For the header we use th</dd>
+                        <dd>7. For the data we use td</dd>
+                        <dd>8. For the caption we use caption</dd>
+                        <h3>Example of a table: </h3>
+                </dl>
+
+                <table border="1" width="100%">
+                    <caption>Mach learning tables.</caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Country</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td>Peter</td>
+                                <td>abcd@gmail.com</td>
+                                <td>Kenya</td>
+                                <td>Kasongo</td>
+                            </tr>
+                            <tr>
+                                <td>Tristan</td>
+                                <td>XYZ@gmail.com</td>
+                                <td>Kenya</td>
+                            </tr>
+                            <tr>
+                                <td>Maureen</td>
+                                <td>Something@gmail.com</td>
+                                <td>U.K</td>
+                            </tr>
+                    </tbody>
+                    <tfoot>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Country</th>
+                    </tfoot>
+                </table>
+
+
+            <h2>HTML Forms </h2>
+
+                <dl>
+                    <dt>How to use forms in HTML</dt>
+                        <dd>We initiate form using the keyword form</dd>
+                        <dd>Then we specify the action and method</dd>
+                        <dd>Then we use a lable to collect info from the user</dd>
+                        <dd>Then we use input to collect the info</dd>
+                        <dd>The we use id. An id is a unique identifier.</dd>
+                        <dd>Then we use required to let the user know they have to provide that info</dd> 
+                    <dt>There are different kinds of information we can collect from the user using forms.</dt>
+                        <dd>For example, we can collect a string type of info, a number, a date, an email, a password, a radio button, a checkbox, a select option, a text area, a button, a submit button, and a reset button.</dd>
+                        <dd>1. For a string type of info we use input type="text"</dd>
+                        <dd>2. For a number we use input type="number"</dd>
+                        <dd>3. For a date we use input type="date"</dd>
+                        <dd>4. For an email we use input type="email"</dd>
+                        <dd>5. For a password we use input type="password"</dd>
+                        <dd>6. For a radio button we use input type="radio"</dd>
+                        <dd>7. For a checkbox we use input type="checkbox"</dd>
+                        <dd>8. For a select option we use select</dd>
+                        <dd>9. For a text area we use textarea</dd>
+                        <dd>10. For a button we use button</dd>
+                        <dd>11. For a submit button we use input type="submit"</dd>
+                        <dd>12. For a reset button we use input type="reset"</dd> 
+                        
+                    <dt>Here are a couple of examples.</dt> 
+                        <dd>1. For a radio button: input type="radio" id="gender" name="Gender" value="Female"</dd>
+                        <dd>2. For a checkbox: input type="checkbox" name="Hobbies" id="Sports" value="Sports"</dd>
+                        <dd>3. For a select option: select id="country" name="country"</dd>
+                        <dd>4. For a text area: textarea id="Description" name="Description" rows="5" cols="30"</dd>
+                        <h3>Example of a Form: </h3>
+                </dl>
+
+                    <form action="" method="">  
+                        <label for="name">Name:</label>
+                            <input type="text" id="Student_name" name="name" required><br><br>
+                        <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br><br>
+                        <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required><br><br>
+                        <label for="gender">Gender</label>
+                            <input type="radio" id="gender" name="Gender" value="Female">
+                            <input type="radio" id="gender" name="Gender" value="Male"><br><br>
+                        <label for="country">Country:</label>
+                            <select id="country" name="country">
+                                <option value="Kenya">Kenya</option>
+                                <option value="Uganda">Uganda</option>
+                                <option value="Tanzania">Tanzania</option>
+                                <option value="Rwanda">Rwanda</option>
+                                <option value="Burundi">Burundi</option>
+                        </select><br><br>
+                        <label for="Hobbies">Hobbies:</label>
+                            <input type="checkbox" name="Hobbies" id="Sports" value="Sports">Sports
+                            <input type="checkbox" name="Hobbies" id="Reading" value="Reading">Reading
+                            <input type="checkbox" name="Hobbies" id="Swimming" value="Swimming">Swimming
+                            <input type="checkbox" name="Hobbies" id="Travelling" value="Travelling">Travelling<br><br> 
+                        <label for="Description">Description:</label>
+                            <textarea id="Description" name="Description" rows="5" cols="30"></textarea><br><br>
+                        <button> Register </button>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+
+                    </form>
+        </body>
+    </html>
