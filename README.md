@@ -41,10 +41,6 @@ To understand grid layouts, media responsiveness, and HTML5 video/image renderin
 │   └── Styles.css         # Custom CSS file (update local path)
 ```
 
-> **Note:** Update the CSS link path if you're moving this to GitHub or a live environment.
-
----
-
 ## 🧪 How to Run
 
 1. Clone the repo or download the files.
