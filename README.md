@@ -1,7 +1,3 @@
-Great, thanks for sharing your code and the quirky concept—“Organized Chaos” is a brilliant touch. Here's a creatively formal README draft that fits your project's experimental vibe, with clean sections and just enough context for a GitHub page:
-
----
-
 # 📸 HTML Div Pexels Recreation (Attempt 1): *Organized Chaos*
 
 A bold attempt at recreating the visual spirit of [Pexels](https://www.pexels.com/) using only HTML and CSS. This project is less a polished clone and more a tribute to modern web chaos—glitchy, glorious, and occasionally functional.
@@ -68,6 +64,3 @@ Inspired by the curated, polished world of Pexels—but through the lens of a de
 
 This is **Attempt 1** of what may or may not become a more polished clone. Or maybe it stays wild forever. Either way, the images *do* load... eventually.
 
----
-
-Let me know if you'd like a version that includes badges, GitHub Pages setup, or a more corporate tone.
